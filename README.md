@@ -42,3 +42,11 @@ Child or current theme:
 Parent theme:
 - [get_parent_theme_file_uri()](https://developer.wordpress.org/reference/functions/get_parent_theme_file_uri/)
 - [get_parent_theme_file_path()](https://developer.wordpress.org/reference/functions/get_parent_theme_file_path/)
+
+## Modifying output through child theme:
+
+### 1. style.css
+
+### 2. Rewriting template files
+
+
