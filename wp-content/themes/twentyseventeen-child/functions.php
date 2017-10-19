@@ -35,6 +35,8 @@ function twentyseventeen_child_setup_theme() {
 	// Remove theme support for Custom Logo.
 	remove_theme_support( 'custom-logo' );
 
+	// Remove parent's filter on body class
+	remove_filter( 'body_class', 'twentyseventeen_body_classes' );
 }
 add_action( 'after_setup_theme', 'twentyseventeen_child_setup_theme', 11 );
 
@@ -68,3 +70,4 @@ function twentyseventeen_child_header_image_size( $args ) {
 	return $args;
 }
 add_filter( 'twentyseventeen_custom_header_args', 'twentyseventeen_child_header_image_size' );
+

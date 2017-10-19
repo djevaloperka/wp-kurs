@@ -68,3 +68,10 @@ Links:
 - [do_action()](https://developer.wordpress.org/reference/functions/do_action/)
 - [add_filter()](https://developer.wordpress.org/reference/functions/add_filter/)
 - [add_action()](https://developer.wordpress.org/reference/functions/add_action/)
+
+### 5. WordPress core hooks
+
+Links:
+
+- [remove_filter()](https://developer.wordpress.org/reference/functions/remove_filter/)
+- [remove_action()](https://developer.wordpress.org/reference/functions/remove_action/)
