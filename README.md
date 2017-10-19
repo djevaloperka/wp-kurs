@@ -49,4 +49,15 @@ Parent theme:
 
 ### 2. Rewriting template files
 
+Links:
+
+- [Template Files](https://developer.wordpress.org/themes/template-files-section/)
+
+### 3. Overriding parent's theme support
+
+Links:
+
+- [after_setup_theme()](https://developer.wordpress.org/reference/hooks/after_setup_theme/)
+- [add_theme_support()](https://developer.wordpress.org/reference/functions/add_theme_support/)
+
 
