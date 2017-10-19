@@ -1,0 +1,21 @@
+## PROJECT ROOT
+
+# Ignore everything in the root except the "wp-content" directory and config files.
+/*
+
+# we need this file and readme
+!.gitignore
+!README.md
+
+# we need wp-content
+!wp-content/
+
+## 'WP-CONTENT' DIR
+# Ignore everything in the "wp-content" directory, except the "plugins" and "themes" directories.
+wp-content/*
+!wp-content/themes/
+
+# project' and OS' junk
+.DS_Store
+.sass-cache
+.directory
