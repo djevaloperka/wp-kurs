@@ -75,3 +75,9 @@ Links:
 
 - [remove_filter()](https://developer.wordpress.org/reference/functions/remove_filter/)
 - [remove_action()](https://developer.wordpress.org/reference/functions/remove_action/)
+
+### 6. Parent's custom functions
+
+Links:
+
+- [function_exists()](http://php.net/manual/en/function.function-exists.php)

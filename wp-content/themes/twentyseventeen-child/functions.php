@@ -71,3 +71,18 @@ function twentyseventeen_child_header_image_size( $args ) {
 }
 add_filter( 'twentyseventeen_custom_header_args', 'twentyseventeen_child_header_image_size' );
 
+/**
+ * Prints HTML with meta information for the current post-date/time and author.
+ */
+function twentyseventeen_posted_on() {
+
+	// Get the author name; wrap it in a link.
+	$byline = sprintf(
+		/* translators: %s: post author */
+		__( 'by %s', 'twentyseventeen' ),
+		'<span class="author vcard">' . get_the_author() . '</span>'
+	);
+
+	// Finally, let's write all of this to the page.
+	echo '<span class="posted-on">' . twentyseventeen_time_link() . '</span><span class="byline"> ' . $byline . '</span>';
+}
