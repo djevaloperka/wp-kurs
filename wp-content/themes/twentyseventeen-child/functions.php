@@ -51,3 +51,20 @@ function twentyseventeen_child_enqueue_styles() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'twentyseventeen_child_enqueue_styles' );
+
+/**
+ * Filter header image size
+ *
+ * This function is attached to 'twentyseventeen_custom_header_args' filter hook,
+ * which is defined in parent theme. @see twentyseventeen/inc/custom-header.php
+ *
+ * @param  array $args   Array of header image arguments
+ * @return array         Returns modified values for header image
+ */
+function twentyseventeen_child_header_image_size( $args ) {
+	$args['width'] = 1000;
+	$args['height'] = 600;
+
+	return $args;
+}
+add_filter( 'twentyseventeen_custom_header_args', 'twentyseventeen_child_header_image_size' );

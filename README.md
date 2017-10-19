@@ -60,4 +60,11 @@ Links:
 - [after_setup_theme()](https://developer.wordpress.org/reference/hooks/after_setup_theme/)
 - [add_theme_support()](https://developer.wordpress.org/reference/functions/add_theme_support/)
 
+### 4. Parent's custom hooks
 
+Links:
+
+- [apply_filters()](https://developer.wordpress.org/reference/functions/apply_filters/)
+- [do_action()](https://developer.wordpress.org/reference/functions/do_action/)
+- [add_filter()](https://developer.wordpress.org/reference/functions/add_filter/)
+- [add_action()](https://developer.wordpress.org/reference/functions/add_action/)
