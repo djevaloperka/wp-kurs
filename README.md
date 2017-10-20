@@ -98,7 +98,9 @@ Links:
 5. footer.php
 	1. [wp_footer()](https://developer.wordpress.org/reference/functions/wp_footer/)
 6. functions.php and document head
-	1. Enqueue styles
+	1. Enqueue styles - [wp_enqueue_style()](https://developer.wordpress.org/reference/functions/wp_enqueue_style/)
 	2. [language_attributes()](https://developer.wordpress.org/reference/functions/language_attributes/)
 	3. [bloginfo()](https://developer.wordpress.org/reference/functions/bloginfo/)
 	4. [add_theme_support()](https://developer.wordpress.org/reference/functions/add_theme_support/) - 'automatic-feed-links' and 'title-tag'
+	5. Enqueue scripts - [wp_enqueue_script()](https://developer.wordpress.org/reference/functions/wp_enqueue_script/)
+	6. wp-includes/script-loader.php

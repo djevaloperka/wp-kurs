@@ -70,9 +70,6 @@
 
 </footer>
 
-<script src="/css/jquery-3.2.1.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-
 <?php wp_footer(); ?>
 </body>
 </html>
