@@ -24,6 +24,13 @@ function custom_setup() {
 	 */
 	add_theme_support( 'title-tag' );
 
+	// Add theme support for Custom Logo.
+	add_theme_support( 'custom-logo', array(
+		'width'       => 306,
+		'height'      => 165,
+		'flex-width'  => true,
+	) );
+
 }
 add_action( 'after_setup_theme', 'custom_setup' );
 

@@ -104,3 +104,6 @@ Links:
 	4. [add_theme_support()](https://developer.wordpress.org/reference/functions/add_theme_support/) - 'automatic-feed-links' and 'title-tag'
 	5. Enqueue scripts - [wp_enqueue_script()](https://developer.wordpress.org/reference/functions/wp_enqueue_script/)
 	6. wp-includes/script-loader.php
+7. Custom logo
+	4. [add_theme_support()](https://developer.wordpress.org/reference/functions/add_theme_support/) - 'custom-logo'
+	1. [home_url()](https://developer.wordpress.org/reference/functions/home_url/)
