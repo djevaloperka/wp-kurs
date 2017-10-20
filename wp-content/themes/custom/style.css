@@ -1,4 +1,17 @@
-body { font-family: 'Roboto';  }
+/*
+Theme Name: Custom Theme
+Theme URI: https://kurs.wp
+Author: Milana Cap
+Author URI: https://developerka.org
+Description: Custom theme for WP course.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: custom
+Tags:
+*/
+
+body { font-family: 'Roboto'; }
 body img { max-width:100%;}
 header, section, footer, aside, nav, main, article, figure { display: block; font-size:15px;}
 a { color:black; text-decoration: none;}
@@ -12,7 +25,7 @@ footer{background-color: #222222;}
 
 /*Slider*/
 /*Hero Headers*/
-.hero {position: absolute;top: 50%;left: 45%;color: #fff;text-transform: uppercase;text-shadow: 1px 1px 0 rgba(0,0,0,.75); -webkit-transform: translate3d(-50%,-50%,0); -moz-transform: translate3d(-50%,-50%,0); -ms-transform: translate3d(-50%,-50%,0);-o-transform: translate3d(-50%,-50%,0); transform: translate3d(-50%,-50%,0);} 
+.hero {position: absolute;top: 50%;left: 45%;color: #fff;text-transform: uppercase;text-shadow: 1px 1px 0 rgba(0,0,0,.75); -webkit-transform: translate3d(-50%,-50%,0); -moz-transform: translate3d(-50%,-50%,0); -ms-transform: translate3d(-50%,-50%,0);-o-transform: translate3d(-50%,-50%,0); transform: translate3d(-50%,-50%,0);}
 .hero h1{color: #212121; font-size: 47px;}
 .hero h3{color: #444;}
 
@@ -108,13 +121,13 @@ a:hover{text-decoration: none;  color:#f07c29;}
 
 /*Media Queries*/
 @media screen and (min-width: 980px){
-    .hero { width: 980px; }    
+    .hero { width: 980px; }
 }
 @media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; } 
-    .navbar-default .navbar-right{background-color: #ddd; margin: 70px;}  
+    .hero h1 { font-size: 4em; }
+    .navbar-default .navbar-right{background-color: #ddd; margin: 70px;}
     .books {padding: 20px;}
-    .books p{padding: 30px; } 
+    .books p{padding: 30px; }
     .text-right {text-align: left;}
     .hero {font-size: 10px;}
 }

@@ -84,3 +84,5 @@ Links:
 
 # Custom Theme
 
+1. Import HTML template
+2. style.css, index.php
