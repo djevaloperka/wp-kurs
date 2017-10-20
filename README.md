@@ -107,3 +107,7 @@ Links:
 7. Custom logo
 	1. [add_theme_support()](https://developer.wordpress.org/reference/functions/add_theme_support/) - 'custom-logo'
 	2. [home_url()](https://developer.wordpress.org/reference/functions/home_url/)
+8. Menu
+	1. [register_nav_menus()](https://developer.wordpress.org/reference/functions/register_nav_menus/)
+	2. [wp_nav_menu()](https://developer.wordpress.org/reference/functions/wp_nav_menu/)
+	3. [get_template_part()](https://developer.wordpress.org/reference/functions/get_template_part/)

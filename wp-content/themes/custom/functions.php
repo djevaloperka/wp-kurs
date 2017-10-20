@@ -31,6 +31,11 @@ function custom_setup() {
 		'flex-width'  => true,
 	) );
 
+	// This theme uses wp_nav_menu() in two locations.
+	register_nav_menus( array(
+		'header' => __( 'Header Menu', 'custom' ),
+	) );
+
 }
 add_action( 'after_setup_theme', 'custom_setup' );
 
