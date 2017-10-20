@@ -81,3 +81,6 @@ Links:
 Links:
 
 - [function_exists()](http://php.net/manual/en/function.function-exists.php)
+
+# Custom Theme
+

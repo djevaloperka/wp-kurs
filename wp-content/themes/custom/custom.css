@@ -1,0 +1,124 @@
+body { font-family: 'Roboto';  }
+body img { max-width:100%;}
+header, section, footer, aside, nav, main, article, figure { display: block; font-size:15px;}
+a { color:black; text-decoration: none;}
+footer{background-color: #222222;}
+
+/*Navigation*/
+.navbar-default{background-color: transparent;border-color: transparent;padding-top: 20px;}
+.navbar-default .navbar-nav > .active > a {background-color: transparent;}
+.navbar-default .navbar-right{ font-size: 20px;}
+.navbar-brand img{max-width: 40%; margin-top: -15px;}
+
+/*Slider*/
+/*Hero Headers*/
+.hero {position: absolute;top: 50%;left: 45%;color: #fff;text-transform: uppercase;text-shadow: 1px 1px 0 rgba(0,0,0,.75); -webkit-transform: translate3d(-50%,-50%,0); -moz-transform: translate3d(-50%,-50%,0); -ms-transform: translate3d(-50%,-50%,0);-o-transform: translate3d(-50%,-50%,0); transform: translate3d(-50%,-50%,0);} 
+.hero h1{color: #212121; font-size: 47px;}
+.hero h3{color: #444;}
+
+/*Overlay*/
+.overlay {position: absolute;width: 100%;height: 100%;background-color: #080d15;opacity: .4;}
+
+/*Custom Buttons*/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,.btn.btn-hero:hover,.btn.btn-hero:focus {color: #f5f5f5; background-color:#f07c29;margin: 20px auto;}
+
+/*Slides backgrounds*/
+.fade-carousel .slides .slide-1,.fade-carousel .slides .slide-2{  height: 100vh; background-size: cover;background-position: center center;background-repeat: no-repeat;}
+.fade-carousel .slides .slide-1 { background-image: url("img/slider1.jpg"); }
+.fade-carousel .slides .slide-2 { background-image: url("img/slider2.jpg");}
+
+/*news*/
+.text-center {padding-top: 80px;
+padding-bottom: 50px;}
+.text-center h1{color: #777;}
+.index-content a{ color: black;}
+.index-content li{color:#f07c29;display: inline-block;}
+.index-content ul{padding: 0px;}
+.textnews {margin: 20px;}
+.index-content .card h5{  text-decoration: line-through;display: inline-block;}
+.index-content .card .price{color:#f07c29;}
+.index-content .card{text-align: center;}
+
+/*author-best-selling*/
+.author-best-selling {padding-top:50px;}
+.author h3{text-align: right;font-size: 70px;color:#f07c29;}
+.author p{text-align: right;font-size: 16px;line-height: 24px;margin-top: 35px;color:#777;}
+.author p span{text-decoration: underline; margin: 2px;}
+.books .author-news li{color:#f07c29;display: inline-block;text-align: center;}
+.books .author-news h5{  text-decoration: line-through;display: inline-block;}
+.books .author-news .price{color:#f07c29;}
+.books .author-news {text-align: center;}
+.books .author-news .caption ul{margin: 0;padding: 0;}
+
+
+/*baner*/
+.banner {padding-bottom: 50px;padding-top: 50px;}
+
+/*blog-home*/
+.blogpostt {text-align: center;    color: #666;padding-bottom: 150px;}
+.blogpostt span{color:#f07c29;margin: 2px;}
+
+/*footer*/
+
+footer .footer-elements h3 {color: #fff;    padding-bottom: 30px;}
+footer .information-elements li{ list-style-type: none; line-height: 30px;}
+footer .footer-elements ul{margin: 0;padding: 0;}
+footer .footer-elements {border-bottom: 2px solid;padding-bottom: 30px;
+padding-top: 30px;}
+footer a{  color: #666;}
+footer a:hover{text-decoration: none;  color: #666;}
+footer .navbar-brand img {margin: -15px;}
+footer .navbar-default a {border: none;}
+footer .paypal img{max-width: 50%;margin-bottom: 30px; }
+footer .paypal p{color: #666;}
+footer .paypal {padding-top:  30px;}
+footer .navbar-default .container{border-bottom: 2px solid;padding: 20px;}
+
+/*blog-strana*/
+.dva-dva img{padding-top: 50px;}
+a:hover{text-decoration: none;  color:#f07c29;}
+.fa-blog{padding-top: 15px;}
+
+/*blog strana na jedan način*/
+.posts li{list-style-type: none;}
+.posts ul{margin: 0;padding: 0;}
+.posts{line-height: 2;}
+.posts a:hover{text-decoration: none;}
+.posts-p p{padding-bottom: 20px ;}
+.pos-com li{border-bottom: 1px solid #777;}
+.blog-one {padding-bottom: 100px;padding-top: 50px;}
+
+/*blog na drugi nacin*/
+.blog-dva span{color:#f07c29;margin: 2px;}
+.blog-dva {padding-bottom: 20px;padding-top: 20px;}
+.blog-two {padding-bottom: 100px;padding-top: 50px;}
+
+/*o nama*/
+.our h1{padding-bottom: 50px;text-align: center;}
+.our span{color: #f07c29 !important;margin: 10px;}
+.our p{padding-bottom: 100px;}
+
+/*kontakt*/
+ #map {height: 400px;width: 100%; }
+#message{min-height: 130px;}
+.form-form{padding-bottom: 50px;}
+.adress{margin-top: 200px;}
+.button-message{padding: 20px;}
+
+/*Media Queries*/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; } 
+    .navbar-default .navbar-right{background-color: #ddd; margin: 70px;}  
+    .books {padding: 20px;}
+    .books p{padding: 30px; } 
+    .text-right {text-align: left;}
+    .hero {font-size: 10px;}
+}
+@media (max-width: 768px) {
+	.index-content .col-lg-4 { margin-top: 20px;}
+}
+
