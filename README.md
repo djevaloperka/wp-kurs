@@ -85,4 +85,12 @@ Links:
 # Custom Theme
 
 1. Import HTML template
-2. style.css, index.php
+2. style.css, index.php, template tags:
+	1. [Template Tags](https://developer.wordpress.org/themes/basics/template-tags/)
+	2. [Linking Theme Files & Directories](https://developer.wordpress.org/themes/basics/linking-theme-files-directories/)
+	3. wp-includes/theme-compat/header.php
+	4. wp-includes/theme-compat/footer.php
+	5. wp-includes/theme-compat/sidebar.php
+3. [The Loop](https://developer.wordpress.org/themes/basics/the-loop/)
+
+
