@@ -95,4 +95,5 @@ Links:
 4. header.php
 	1. [wp_head()](https://developer.wordpress.org/reference/functions/wp_head/)
 	2. [body_class()](https://developer.wordpress.org/reference/functions/body_class/)
-
+5. footer.php
+	1. [wp_footer()](https://developer.wordpress.org/reference/functions/wp_footer/)
