@@ -92,5 +92,7 @@ Links:
 	4. wp-includes/theme-compat/footer.php
 	5. wp-includes/theme-compat/sidebar.php
 3. [The Loop](https://developer.wordpress.org/themes/basics/the-loop/)
-
+4. header.php
+	1. [wp_head()](https://developer.wordpress.org/reference/functions/wp_head/)
+	2. [body_class()](https://developer.wordpress.org/reference/functions/body_class/)
 
