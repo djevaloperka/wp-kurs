@@ -72,6 +72,16 @@ add_action( 'wp_enqueue_scripts', 'custom_enqueue_scripts' );
 function custom_widgets_init() {
 
 	register_sidebar( array(
+		'name'          => __( 'Main Sidebar', 'custom' ),
+		'id'            => 'sidebar-1',
+		'description'   => __( 'Main widget area, displayed on blog archive page.', 'custom' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
+	register_sidebar( array(
 		'name'          => __( 'Footer 1', 'custom' ),
 		'id'            => 'footer-1',
 		'description'   => __( 'Footer column 1 widget area.', 'custom' ),

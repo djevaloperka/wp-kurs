@@ -11,7 +11,7 @@ if ( ! is_active_sidebar( 'footer-1' ) &&
 	return;
 } ?>
 
-<div class="container footer-elements">
+<div class="container footer-elements" role="complementary">
 	<div class="row">
 
 		<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
