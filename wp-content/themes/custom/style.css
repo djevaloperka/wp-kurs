@@ -99,11 +99,13 @@ padding-bottom: 50px;}
 
 /*footer*/
 
-footer .footer-elements h3 {color: #fff;    padding-bottom: 30px;}
-footer .information-elements li{ list-style-type: none; line-height: 30px;}
+footer .footer-elements h3 {color: #fff; padding-bottom: 30px; text-transform: uppercase;}
 footer .footer-elements ul{margin: 0;padding: 0;}
+footer .information-elements li,
+footer ul li { list-style-type: none; line-height: 30px;}
 footer .footer-elements {border-bottom: 2px solid;padding-bottom: 30px;
 padding-top: 30px;}
+footer .footer-elements p { color: #999; }
 footer a{  color: #666;}
 footer a:hover{text-decoration: none;  color: #666;}
 footer .navbar-brand img {margin: -15px;}

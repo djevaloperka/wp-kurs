@@ -65,3 +65,51 @@ function custom_enqueue_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'custom_enqueue_scripts' );
+
+/**
+ * Register widget areas
+ */
+function custom_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => __( 'Footer 1', 'custom' ),
+		'id'            => 'footer-1',
+		'description'   => __( 'Footer column 1 widget area.', 'custom' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Footer 2', 'custom' ),
+		'id'            => 'footer-2',
+		'description'   => __( 'Footer column 2 widget area.', 'custom' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Footer 3', 'custom' ),
+		'id'            => 'footer-3',
+		'description'   => __( 'Footer column 3 widget area.', 'custom' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Footer 4', 'custom' ),
+		'id'            => 'footer-4',
+		'description'   => __( 'Footer column 4 widget area.', 'custom' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
+}
+add_action( 'widgets_init', 'custom_widgets_init' );
