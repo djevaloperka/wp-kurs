@@ -20,10 +20,10 @@
 	<!--/Open-graph-protocol-type-->
 
 	<!--where-is-open-graph-protocol-->
-	<meta property="og:url" content="http://wpkurs.comit.in.rs/" />
+	<meta property="og:url" content="<?php echo home_url( '/' ); ?>" />
 	<!--/where-is-open-graph-protocol-->
 
-<?php wp_head();?>
+<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -33,7 +33,7 @@
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
+						<span class="sr-only"><?php esc_html_e( 'Toggle navigation', 'custom' ); ?></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>

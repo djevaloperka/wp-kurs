@@ -113,3 +113,4 @@ Links:
 	3. [get_template_part()](https://developer.wordpress.org/reference/functions/get_template_part/)
 	4. Force WordPress menu markup to match Bootstrap's - custom.js
 	5. Set social icons in menu via css
+9. Set textdomain for translation - [load_theme_textdomain()](https://developer.wordpress.org/reference/functions/load_theme_textdomain/)

@@ -13,6 +13,11 @@
  * as indicating support for post thumbnails.
  */
 function custom_setup() {
+	/*
+	 * Make theme available for translation.
+	 */
+	load_theme_textdomain( 'custom' );
+
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
