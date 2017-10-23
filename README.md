@@ -116,4 +116,5 @@ Links:
 9. Set textdomain for translation - [load_theme_textdomain()](https://developer.wordpress.org/reference/functions/load_theme_textdomain/)
 10. Widgets
 	1. [register_sidebar()](https://developer.wordpress.org/reference/functions/register_sidebar/)
-	1. [dynamic_sidebar()](https://developer.wordpress.org/reference/functions/dynamic_sidebar/)
+	2. [dynamic_sidebar()](https://developer.wordpress.org/reference/functions/dynamic_sidebar/)
+	3. [get_sidebar()](https://developer.wordpress.org/reference/functions/get_sidebar/)
