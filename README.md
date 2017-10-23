@@ -111,3 +111,4 @@ Links:
 	1. [register_nav_menus()](https://developer.wordpress.org/reference/functions/register_nav_menus/)
 	2. [wp_nav_menu()](https://developer.wordpress.org/reference/functions/wp_nav_menu/)
 	3. [get_template_part()](https://developer.wordpress.org/reference/functions/get_template_part/)
+	4. Force WordPress menu markup to match Bootstrap's - custom.js

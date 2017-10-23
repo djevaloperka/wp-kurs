@@ -55,24 +55,6 @@
 
 				<?php get_template_part( 'parts/navigation-header' ); ?>
 
-				<div id="navbar" class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="/index.html">Početna</a></li>
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown">Blog<b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="/blog-na-jedan-nacin.html">Blog na jedan način</a></li>
-								<li><a href="/prikaz-bloga-na-drugi-nacin.html">Prikaz bloga na drugi način</a></li>
-							</ul>
-						</li>
-						<li class="dropdown"><a href="/o-nama.html">O nama</a></li>
-						<li class="dropdown"><a href="/kontakt.html">Kontakt</a></li>
-						<li class="dropdown"><a href="#"><span class="fa fa-facebook-square"></span></a></li>
-						<li class="dropdown"><a href="#"><span class="fa fa-twitter-square"></span></a></li>
-						<li class="dropdown"><a href="#"><i class="fa fa-instagram"></i></a></li>
-					</ul>
-				</div>
-
 			</div>
 		</nav>
 	</header>

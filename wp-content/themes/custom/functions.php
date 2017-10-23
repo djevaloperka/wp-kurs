@@ -53,6 +53,7 @@ function custom_enqueue_scripts() {
 
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'bootstrap', get_theme_file_uri( '/js/bootstrap.min.js' ), array( 'jquery' ), '', true );
+	wp_enqueue_script( 'custom', get_theme_file_uri( '/js/custom.js' ), array( 'bootstrap' ), '', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

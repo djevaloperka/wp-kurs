@@ -64,7 +64,7 @@
          <div class="col-md-6">
             <p> Your Store Copyright Here. Powered By Milena</p>
          </div>
-         <div class="col-md-6 text-right"><img src="/img/file-tHlBk2a147.png"></div>
+         <div class="col-md-6 text-right"><img src="/wp-content/themes/custom/img/file-tHlBk2a147.png"></div>
       </div>
    </div>
 
