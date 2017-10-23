@@ -112,3 +112,4 @@ Links:
 	2. [wp_nav_menu()](https://developer.wordpress.org/reference/functions/wp_nav_menu/)
 	3. [get_template_part()](https://developer.wordpress.org/reference/functions/get_template_part/)
 	4. Force WordPress menu markup to match Bootstrap's - custom.js
+	5. Set social icons in menu via css

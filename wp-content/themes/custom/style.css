@@ -23,6 +23,31 @@ footer{background-color: #222222;}
 .navbar-default .navbar-right{ font-size: 20px;}
 .navbar-brand img{max-width: 40%; margin-top: -15px;}
 
+/* Target social network links in menu */
+.navbar-default .navbar-nav>li>a[href*="facebook"],
+.navbar-default .navbar-nav>li>a[href*="twitter"],
+.navbar-default .navbar-nav>li>a[href*="instagram"] {
+	font-size: 0;
+}
+
+.navbar-default .navbar-nav>li>a[href*="facebook"]::before,
+.navbar-default .navbar-nav>li>a[href*="twitter"]::before ,
+.navbar-default .navbar-nav>li>a[href*="instagram"]::before {
+	font: normal normal normal 20px/1 FontAwesome;
+	display: inline;
+	position: relative;
+}
+
+.navbar-default .navbar-nav>li>a[href*="facebook"]:before {
+	content:"\f082";
+}
+.navbar-default .navbar-nav>li>a[href*="twitter"]::before {
+	content:"\f081";
+}
+.navbar-default .navbar-nav>li>a[href*="instagram"]::before {
+	content:"\f16d";
+}
+
 /*Slider*/
 /*Hero Headers*/
 .hero {position: absolute;top: 50%;left: 45%;color: #fff;text-transform: uppercase;text-shadow: 1px 1px 0 rgba(0,0,0,.75); -webkit-transform: translate3d(-50%,-50%,0); -moz-transform: translate3d(-50%,-50%,0); -ms-transform: translate3d(-50%,-50%,0);-o-transform: translate3d(-50%,-50%,0); transform: translate3d(-50%,-50%,0);}
