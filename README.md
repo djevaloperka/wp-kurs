@@ -126,3 +126,7 @@ Links:
 	5. [the_excerpt()](https://developer.wordpress.org/reference/functions/the_excerpt/)
 	6. [get_permalink()](https://developer.wordpress.org/reference/functions/get_permalink/)
 	7. Filters: [excerpt_more](https://developer.wordpress.org/reference/hooks/excerpt_more/) and [excerpt_length](https://developer.wordpress.org/reference/hooks/excerpt_length/)
+12. Featured image
+	1. [add_theme_support()](https://developer.wordpress.org/reference/functions/add_theme_support/) - 'post-thumbnails'
+	2. Conditional [has_post_thumbnail()](https://developer.wordpress.org/reference/functions/has_post_thumbnail/)
+	3. [the_post_thumbnail()](https://developer.wordpress.org/reference/functions/the_post_thumbnail/)
