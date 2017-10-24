@@ -132,3 +132,6 @@ Links:
 	3. [the_post_thumbnail()](https://developer.wordpress.org/reference/functions/the_post_thumbnail/)
 13. Posts pagination
 	1. [the_posts_pagination()](https://developer.wordpress.org/reference/functions/the_posts_pagination/)
+14. Custom page template
+	1. [Page Templates](https://developer.wordpress.org/themes/template-files-section/page-template-files/)
+	2. [WP_Query()](https://developer.wordpress.org/reference/classes/wp_query/)
