@@ -130,3 +130,5 @@ Links:
 	1. [add_theme_support()](https://developer.wordpress.org/reference/functions/add_theme_support/) - 'post-thumbnails'
 	2. Conditional [has_post_thumbnail()](https://developer.wordpress.org/reference/functions/has_post_thumbnail/)
 	3. [the_post_thumbnail()](https://developer.wordpress.org/reference/functions/the_post_thumbnail/)
+13. Posts pagination
+	1. [the_posts_pagination()](https://developer.wordpress.org/reference/functions/the_posts_pagination/)

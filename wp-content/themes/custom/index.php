@@ -26,6 +26,11 @@ get_header(); ?>
 						</div><!-- blog-dva -->
 
 					<?php endwhile;
+					/**
+					 * Posts pagination
+					 */
+					the_posts_pagination();
+
 				endif;
 			?>
 		</div><!-- col-md-8 -->
