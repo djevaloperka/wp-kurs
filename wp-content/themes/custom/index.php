@@ -4,16 +4,31 @@
  *
  * @package WordPress
  */
-get_header();
+get_header(); ?>
 
-if ( have_posts() ) :
-	while ( have_posts() ) : the_post();
 
-		the_title();
+<div class="container blog-one">
+	<div class="row">
 
-	endwhile;
-endif;
+		<div class="col-md-8">
+			<?php
+				if ( have_posts() ) :
+					while ( have_posts() ) : the_post(); ?>
 
-get_sidebar();
+						<div class="blog-dva">
+							<?php the_title( '<h3>', '</h3>' ); ?>
+							<p>By <span><?php the_author(); ?></span> / <?php comments_number(); ?></p>
+							<?php the_excerpt(); ?>
+						</div><!-- blog-dva -->
 
-get_footer();
+					<?php endwhile;
+				endif;
+			?>
+		</div><!-- col-md-8 -->
+
+		<?php get_sidebar(); ?>
+	</div><!-- row -->
+</div><!-- container blog-one -->
+
+
+<?php get_footer();

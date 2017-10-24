@@ -118,3 +118,11 @@ Links:
 	1. [register_sidebar()](https://developer.wordpress.org/reference/functions/register_sidebar/)
 	2. [dynamic_sidebar()](https://developer.wordpress.org/reference/functions/dynamic_sidebar/)
 	3. [get_sidebar()](https://developer.wordpress.org/reference/functions/get_sidebar/)
+11. Blog archive - index.php
+	1. [Template Hierarchy](https://wphierarchy.com/)
+	2. [the_title()](https://developer.wordpress.org/reference/functions/the_title/)
+	3. [the_author()](https://developer.wordpress.org/reference/functions/the_author/)
+	4. [comments_number()](https://developer.wordpress.org/reference/functions/comments_number/)
+	5. [the_excerpt()](https://developer.wordpress.org/reference/functions/the_excerpt/)
+	6. [get_permalink()](https://developer.wordpress.org/reference/functions/get_permalink/)
+	7. Filters: [excerpt_more](https://developer.wordpress.org/reference/hooks/excerpt_more/) and [excerpt_length](https://developer.wordpress.org/reference/hooks/excerpt_length/)

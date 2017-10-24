@@ -123,3 +123,27 @@ function custom_widgets_init() {
 
 }
 add_action( 'widgets_init', 'custom_widgets_init' );
+/**
+ * Filter excerpt in order to hange the number of returned words.
+ * This function is attached to 'excerpt_length' filter hook.
+ *
+ * @param  int $length Number of words
+ * @return int         Returns new number of words
+ */
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+/**
+ * Filter excerpt more in order to change string appended
+ * to excerpt. This function is attached to 'exerpt_more'
+ * filter hook.
+ *
+ * @param  string $more String appended to excerpt
+ * @return string       Returns modified string appended to excerpt
+ */
+function custom_excerpt_more( $more ) {
+	$link = '<a href="' . get_permalink() . '">Read more</a>';
+	return '...' . $link;
+}
+add_filter( 'excerpt_more', 'custom_excerpt_more' );
