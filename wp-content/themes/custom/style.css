@@ -121,9 +121,9 @@ a:hover{text-decoration: none;  color:#f07c29;}
 .fa-blog{padding-top: 15px;}
 
 /*blog strana na jedan način*/
-.posts li{list-style-type: none;}
-.posts ul{margin: 0;padding: 0;}
 .posts{line-height: 2;}
+.posts ul{margin: 0;padding: 0;}
+.posts li{list-style-type: none;}
 .posts a:hover{text-decoration: none;}
 .posts-p p{padding-bottom: 20px ;}
 .pos-com li{border-bottom: 1px solid #777;}
