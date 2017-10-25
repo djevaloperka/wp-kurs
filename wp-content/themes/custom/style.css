@@ -135,9 +135,10 @@ a:hover{text-decoration: none;  color:#f07c29;}
 .blog-two {padding-bottom: 100px;padding-top: 50px;}
 
 /*o nama*/
+.our {padding-bottom: 100px;}
 .our h1{padding-bottom: 50px;text-align: center;}
-.our span{color: #f07c29 !important;margin: 10px;}
-.our p{padding-bottom: 100px;}
+.our span{color: #f07c29 !important;}
+.our p { margin-bottom: 1.5em;  }
 
 /*kontakt*/
  #map {height: 400px;width: 100%; }

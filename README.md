@@ -135,3 +135,5 @@ Links:
 14. Custom page template
 	1. [Page Templates](https://developer.wordpress.org/themes/template-files-section/page-template-files/)
 	2. [WP_Query()](https://developer.wordpress.org/reference/classes/wp_query/)
+15. Default page template
+	1. [Page Templates](https://developer.wordpress.org/themes/template-files-section/page-template-files/)
