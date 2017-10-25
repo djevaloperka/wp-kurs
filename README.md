@@ -137,3 +137,6 @@ Links:
 	2. [WP_Query()](https://developer.wordpress.org/reference/classes/wp_query/)
 15. Default page template
 	1. [Page Templates](https://developer.wordpress.org/themes/template-files-section/page-template-files/)
+16. Single post
+	1. [is_single()](https://developer.wordpress.org/reference/functions/is_single/)
+	2. [the_post_navigation()](https://developer.wordpress.org/reference/functions/the_post_navigation/)

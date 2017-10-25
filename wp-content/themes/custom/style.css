@@ -16,6 +16,7 @@ body img { max-width:100%; height: auto;}
 header, section, footer, aside, nav, main, article, figure { display: block; font-size:15px;}
 a { color:black; text-decoration: none;}
 footer{background-color: #222222;}
+p { margin-bottom: 1.5em;  }
 
 /*Navigation*/
 .navbar-default{background-color: transparent;border-color: transparent;padding-top: 20px;}
@@ -138,7 +139,7 @@ a:hover{text-decoration: none;  color:#f07c29;}
 .our {padding-bottom: 100px;}
 .our h1{padding-bottom: 50px;text-align: center;}
 .our span{color: #f07c29 !important;}
-.our p { margin-bottom: 1.5em;  }
+
 
 /*kontakt*/
  #map {height: 400px;width: 100%; }

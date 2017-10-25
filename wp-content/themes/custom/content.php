@@ -14,5 +14,13 @@
 
 	<?php the_title( '<h3>', '</h3>' ); ?>
 	<p>By <span><?php the_author(); ?></span> / <?php comments_number(); ?></p>
-	<?php the_excerpt(); ?>
+
+	<?php
+		if ( is_single() ) :
+			the_content();
+		else : // index.php, arcive.php, category.php, tag.php, date.php
+			the_excerpt();
+		endif;
+	?>
+
 </div><!-- blog-dva -->
