@@ -144,3 +144,6 @@ Links:
 	1. [is_page_template()](https://developer.wordpress.org/reference/functions/is_page_template/)
 	2. [wp_localize_script()](https://developer.wordpress.org/reference/functions/wp_localize_script/)
 	3. [parseFloat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
+18. Contact page template widgets
+	1. [is_active_sidebar()](https://developer.wordpress.org/reference/functions/is_active_sidebar/)
+	2. [dynamic_sidebar()](https://developer.wordpress.org/reference/functions/dynamic_sidebar/)

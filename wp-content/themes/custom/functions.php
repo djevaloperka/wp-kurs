@@ -102,6 +102,26 @@ function custom_widgets_init() {
 	) );
 
 	register_sidebar( array(
+		'name'          => __( 'Contact intro', 'custom' ),
+		'id'            => 'contact-intro',
+		'description'   => __( 'Displayed on contact page template, before contact form.', 'custom' ),
+		'before_widget' => '<div id="%1$s" class="about_our_company text-center widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1>',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Contact info', 'custom' ),
+		'id'            => 'contact-info',
+		'description'   => __( 'Displayed on contact page template, next to contact form.', 'custom' ),
+		'before_widget' => '<div id="%1$s" class="col-md-2 adress widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '',
+		'after_title'   => '',
+	) );
+
+	register_sidebar( array(
 		'name'          => __( 'Footer 1', 'custom' ),
 		'id'            => 'footer-1',
 		'description'   => __( 'Footer column 1 widget area.', 'custom' ),
