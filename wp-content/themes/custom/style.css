@@ -143,6 +143,7 @@ a:hover{text-decoration: none;  color:#f07c29;}
 
 /*kontakt*/
  #map {height: 400px;width: 100%; }
+ textarea.form-control { height: 130px; }
 #message{min-height: 130px;}
 .form-form{padding-bottom: 50px;}
 .adress{margin-top: 200px;}

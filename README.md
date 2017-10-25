@@ -147,3 +147,5 @@ Links:
 18. Contact page template widgets
 	1. [is_active_sidebar()](https://developer.wordpress.org/reference/functions/is_active_sidebar/)
 	2. [dynamic_sidebar()](https://developer.wordpress.org/reference/functions/dynamic_sidebar/)
+19. Contact Form 7
+	1. [Plugin](https://wordpress.org/plugins/contact-form-7/)
