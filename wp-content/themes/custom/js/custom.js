@@ -9,4 +9,5 @@
 		.addClass('dropdown-toggle').attr('data-toggle', 'dropdown').append('<b class="caret"></b>')
 		.siblings('.sub-menu').addClass('dropdown-menu');
 
+
 })( jQuery );

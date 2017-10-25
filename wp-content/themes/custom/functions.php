@@ -65,6 +65,19 @@ function custom_enqueue_scripts() {
 
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'bootstrap', get_theme_file_uri( '/js/bootstrap.min.js' ), array( 'jquery' ), '', true );
+
+	// Load Google map js only on Contact page template
+	if ( is_page_template( 'template-contact.php' ) ) :
+		wp_enqueue_script( 'map', get_theme_file_uri( '/js/map.js' ), array(), '', true );
+		wp_enqueue_script( 'maps.googleapis', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD246KCYpyAgurZZBJ9vkPZi77LjGiysHc&callback=initMap', array(), '', true );
+
+		wp_localize_script( 'map', 'custom_map', array(
+			'lat'  => 40.6538813,
+			'lng'  => -74.0991328,
+			'zoom' => 14
+		) );
+	endif; // is_page_template( 'template-contact.php' )
+
 	wp_enqueue_script( 'custom', get_theme_file_uri( '/js/custom.js' ), array( 'bootstrap' ), '', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

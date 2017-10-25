@@ -140,3 +140,7 @@ Links:
 16. Single post
 	1. [is_single()](https://developer.wordpress.org/reference/functions/is_single/)
 	2. [the_post_navigation()](https://developer.wordpress.org/reference/functions/the_post_navigation/)
+17. Contact page template
+	1. [is_page_template()](https://developer.wordpress.org/reference/functions/is_page_template/)
+	2. [wp_localize_script()](https://developer.wordpress.org/reference/functions/wp_localize_script/)
+	3. [parseFloat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
