@@ -149,3 +149,8 @@ Links:
 	2. [dynamic_sidebar()](https://developer.wordpress.org/reference/functions/dynamic_sidebar/)
 19. Contact Form 7
 	1. [Plugin](https://wordpress.org/plugins/contact-form-7/)
+20. Front page - Hero Slider
+	1. [Page Templates](https://developer.wordpress.org/themes/template-files-section/page-template-files/)
+	2. [the_post_thumbnail_url()](https://developer.wordpress.org/reference/functions/the_post_thumbnail_url/)
+	3. [the_id()](https://developer.wordpress.org/reference/functions/the_id/)
+	4. [the_permalink()](https://developer.wordpress.org/reference/functions/the_permalink/)
