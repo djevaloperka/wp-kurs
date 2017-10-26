@@ -154,3 +154,8 @@ Links:
 	2. [the_post_thumbnail_url()](https://developer.wordpress.org/reference/functions/the_post_thumbnail_url/)
 	3. [the_id()](https://developer.wordpress.org/reference/functions/the_id/)
 	4. [the_permalink()](https://developer.wordpress.org/reference/functions/the_permalink/)
+21. Front page - Blog feed
+	1. [Featured Images & Post Thumbnails](https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/)
+	2. [add_image_size()](https://developer.wordpress.org/reference/functions/add_image_size/)
+	3. Plugin [Force Regenerate Thumbnails](https://wordpress.org/plugins/force-regenerate-thumbnails/)
+	4. [is_front_page()](https://developer.wordpress.org/reference/functions/is_front_page/)

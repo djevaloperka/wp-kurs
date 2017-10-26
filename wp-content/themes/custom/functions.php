@@ -13,7 +13,7 @@
  * as indicating support for post thumbnails.
  */
 function custom_setup() {
-	/*
+	/**
 	 * Make theme available for translation.
 	 */
 	load_theme_textdomain( 'custom' );
@@ -21,7 +21,7 @@ function custom_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
-	/*
+	/**
 	 * Let WordPress manage the document title.
 	 * By adding theme support, we declare that this theme does not use a
 	 * hard-coded <title> tag in the document head, and expect WordPress to
@@ -29,12 +29,14 @@ function custom_setup() {
 	 */
 	add_theme_support( 'title-tag' );
 
-	/*
+	/**
 	 * Enable support for Post Thumbnails on posts and pages.
 	 *
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
+	add_image_size( 'frontpage-thumb', 370, 219, true );
+	add_image_size( 'archive-grid', 555, 330, true );
 
 	// Add theme support for Custom Logo.
 	add_theme_support( 'custom-logo', array(
@@ -184,6 +186,11 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
  */
 function custom_excerpt_more( $more ) {
 	$link = '<a href="' . get_permalink() . '">Read more</a>';
-	return '...' . $link;
+
+	if ( is_front_page() ) :
+		return '... <span>' . $link . '</span>';
+	else :
+		return '...' . $link;
+	endif;
 }
 add_filter( 'excerpt_more', 'custom_excerpt_more' );

@@ -93,6 +93,7 @@ padding-bottom: 50px;}
 .banner {padding-bottom: 50px;padding-top: 50px;}
 
 /*blog-home*/
+.front-page-feed h1 { text-transform: uppercase; }
 .blogpostt {text-align: center;    color: #666;padding-bottom: 150px;}
 .blogpostt span{color:#f07c29;margin: 2px;}
 

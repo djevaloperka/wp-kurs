@@ -6,10 +6,21 @@
  *
  * @package WordPress
  */
-?>
-<div class="blog-dva">
+if ( is_front_page() ) :
+	$class = 'col-md-4';
+	$size = 'frontpage-thumb';
+elseif ( is_page_template( 'template-blog-2.php' ) ) :
+	$class = 'blog-dva';
+	$size = 'archive-grid';
+else :
+	$class = 'blog-dva';
+	$size = 'full';
+endif; ?>
+
+<div class="<?php echo $class; ?>">
+
 	<?php if ( has_post_thumbnail() ) : ?>
-		<?php the_post_thumbnail( 'full' ); ?>
+		<?php the_post_thumbnail( $size ); ?>
 	<?php endif; ?>
 
 	<?php the_title( '<h3>', '</h3>' ); ?>
@@ -22,5 +33,4 @@
 			the_excerpt();
 		endif;
 	?>
-
-</div><!-- blog-dva -->
+</div>
