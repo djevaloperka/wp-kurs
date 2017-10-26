@@ -7,8 +7,18 @@
  * @package WordPress
  */
 $args = array(
-	'post_type'      => 'post',
-	'posts_per_page' => 3,
+	'post_type'        => 'post',
+	'posts_per_page'   => 3,
+	'order'            => 'DESC',
+	'orderby'          => 'post_date',
+	'tax_query'        => array(
+		array(
+			'taxonomy' => 'category',
+			'field'    => 'slug',
+			'terms'    => 'products',
+			'operator' => 'NOT IN',
+		),
+	),
 );
 
 $query = new WP_Query( $args );

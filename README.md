@@ -159,3 +159,5 @@ Links:
 	2. [add_image_size()](https://developer.wordpress.org/reference/functions/add_image_size/)
 	3. Plugin [Force Regenerate Thumbnails](https://wordpress.org/plugins/force-regenerate-thumbnails/)
 	4. [is_front_page()](https://developer.wordpress.org/reference/functions/is_front_page/)
+22. Front page - custom taxonomy query, widgets
+	1. [WP_Query()](https://developer.wordpress.org/reference/classes/wp_query/)

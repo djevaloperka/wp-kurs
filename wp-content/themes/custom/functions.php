@@ -36,6 +36,7 @@ function custom_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 	add_image_size( 'frontpage-thumb', 370, 219, true );
+	add_image_size( 'frontpage-products', 200, 257, true );
 	add_image_size( 'archive-grid', 555, 330, true );
 
 	// Add theme support for Custom Logo.
@@ -121,6 +122,26 @@ function custom_widgets_init() {
 		'after_widget'  => '</div>',
 		'before_title'  => '',
 		'after_title'   => '',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Frontpage Products Intro', 'custom' ),
+		'id'            => 'frontpage-products',
+		'description'   => __( 'Widget area above featured products on home page.', 'custom' ),
+		'before_widget' => '<aside id="%1$s" class="frontpage-widget widget %2$s text-center">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Frontpage Promo', 'custom' ),
+		'id'            => 'frontpage-promo',
+		'description'   => __( 'Widget area below featured products on home page.', 'custom' ),
+		'before_widget' => '<aside id="%1$s" class="frontpage-widget widget %2$s container banner">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
 	) );
 
 	register_sidebar( array(

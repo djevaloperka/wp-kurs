@@ -68,11 +68,12 @@ p { margin-bottom: 1.5em;  }
 /*news*/
 .text-center {padding-top: 80px;
 padding-bottom: 50px;}
-.text-center h1{color: #777;}
+.text-center h1{color: #777; text-transform: uppercase;}
 .index-content a{ color: black;}
 .index-content li{color:#f07c29;display: inline-block;}
 .index-content ul{padding: 0px;}
 .textnews {margin: 20px;}
+
 .index-content .card h5{  text-decoration: line-through;display: inline-block;}
 .index-content .card .price{color:#f07c29;}
 .index-content .card{text-align: center;}
