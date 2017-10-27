@@ -27,6 +27,10 @@ get_header();
 		dynamic_sidebar( 'frontpage-promo' );
 	endif;
 	/**
+	 * Featured author
+	 */
+	get_template_part( 'parts/frontpage-featured-author' );
+	/**
 	 * Latest posts
 	 */
 	get_template_part( 'parts/frontpage-latest-posts' );

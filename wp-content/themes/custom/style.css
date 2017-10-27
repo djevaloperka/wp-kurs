@@ -17,6 +17,9 @@ header, section, footer, aside, nav, main, article, figure { display: block; fon
 a { color:black; text-decoration: none;}
 footer{background-color: #222222;}
 p { margin-bottom: 1.5em;  }
+del {
+    font-size: 14px;
+}
 
 /*Navigation*/
 .navbar-default{background-color: transparent;border-color: transparent;padding-top: 20px;}
@@ -74,6 +77,7 @@ padding-bottom: 50px;}
 .index-content ul{padding: 0px;}
 .textnews {margin: 20px;}
 
+
 .index-content .card h5{  text-decoration: line-through;display: inline-block;}
 .index-content .card .price{color:#f07c29;}
 .index-content .card{text-align: center;}
@@ -82,7 +86,7 @@ padding-bottom: 50px;}
 .author-best-selling {padding-top:50px;}
 .author h3{text-align: right;font-size: 70px;color:#f07c29;}
 .author p{text-align: right;font-size: 16px;line-height: 24px;margin-top: 35px;color:#777;}
-.author p span{text-decoration: underline; margin: 2px;}
+.author p span{text-decoration: underline; margin: 2px; text-transform:uppercase;}
 .books .author-news li{color:#f07c29;display: inline-block;text-align: center;}
 .books .author-news h5{  text-decoration: line-through;display: inline-block;}
 .books .author-news .price{color:#f07c29;}

@@ -1,8 +1,8 @@
 <?php
 /**
- * Hero Slider
+ * Featured products
  *
- * Template for displaying slider on home page.
+ * Template for displaying featured products on home page.
  *
  * @package WordPress
  */

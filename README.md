@@ -161,3 +161,7 @@ Links:
 	4. [is_front_page()](https://developer.wordpress.org/reference/functions/is_front_page/)
 22. Front page - custom taxonomy query, widgets
 	1. [WP_Query()](https://developer.wordpress.org/reference/classes/wp_query/)
+23. Front page - featured author
+	1. the_author_meta()
+	2. get_the_category_by_ID()
+	3. wpautop()

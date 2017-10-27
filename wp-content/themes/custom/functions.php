@@ -145,6 +145,16 @@ function custom_widgets_init() {
 	) );
 
 	register_sidebar( array(
+		'name'          => __( 'Frontpage Featured Author', 'custom' ),
+		'id'            => 'frontpage-author',
+		'description'   => __( 'Widget area for featured author section on home page.', 'custom' ),
+		'before_widget' => '<aside id="%1$s" class="frontpage-widget widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
 		'name'          => __( 'Footer 1', 'custom' ),
 		'id'            => 'footer-1',
 		'description'   => __( 'Footer column 1 widget area.', 'custom' ),

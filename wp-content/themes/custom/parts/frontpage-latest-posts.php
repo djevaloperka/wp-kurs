@@ -1,8 +1,8 @@
 <?php
 /**
- * Hero Slider
+ * Latest posts
  *
- * Template for displaying slider on home page.
+ * Template for displaying latest posts on home page.
  *
  * @package WordPress
  */
@@ -15,7 +15,7 @@ $args = array(
 		array(
 			'taxonomy' => 'category',
 			'field'    => 'slug',
-			'terms'    => 'products',
+			'terms'    => array( 'products', 'books', 'audiobooks' ),
 			'operator' => 'NOT IN',
 		),
 	),
